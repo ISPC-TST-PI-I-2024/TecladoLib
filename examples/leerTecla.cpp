@@ -4,7 +4,7 @@
 #include <Wire.h>
 #include "teclado.h"
 
-Teclado teclado(34, 35, 32, 33, 25, 26, 27);  // Instanciar el objeto Teclado con los pines asignados
+Teclado teclado(32, 33, 25, 26, 27, 14, 12);  // Instanciar el objeto Teclado con los pines asignados
 
 void setup() {
   Serial.begin(115200);
